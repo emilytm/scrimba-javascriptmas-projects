@@ -1,4 +1,30 @@
 body {
     margin: 0;
 }
+h2 {
+    font-size: 3em;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+main {
+    margin: 1.5em;
+}
 
+.display-challenges {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    align-items: center;
+}
+
+.challenge-box {
+    background-color: antiquewhite;
+    border: 2px solid bisque;
+    color: rgb(57, 35, 35);
+    border-radius: 4px;
+    width: 240px;
+    margin: .3em;
+    vertical-align: middle;
+    padding: 40px;
+    text-align: center;
+}
